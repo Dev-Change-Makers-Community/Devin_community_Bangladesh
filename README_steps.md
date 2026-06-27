@@ -19,13 +19,13 @@ Features:
 First, create a development plan and then begin implementing the project step by step.
 
 ```
-![images\chat.png](images\chat.png)
+![images\chat.png](./images/chat.png)
 
-![images\p1.png](images\p1.png)
+![images\p1.png](./images/p1.png)
 
-![images\p2.png](images\p2.png)
+![images\p2.png](./images/p2.png)
 
-![images\p3.png](images\p3.png)
+![images\p3.png](./images/p3.png)
 
 
 
@@ -48,10 +48,10 @@ Then identify:
 Don't modify anything yet.
 Create a report first."
 
-![images\p4.png](images\p4.png)
+![images\p4.png](./images/p4.png)
 
 
-![images\p5.png](images\p5.png)
+![images\p5.png](./images/p5.png)
 
 ### Then ask for CodeMap
 Then we can paste this :
@@ -67,14 +67,14 @@ Include:
 
 These files are generated now:
 
-![images\p6.png](images\p6.png)
+![images\p6.png](./images/p6.png)
 
 
 ### Use DeepWiki
 
 Go to main.py and then press Ctrl+Shift and press on a method. For example, here I pressed on health_check() method.
 
-![images\p8.png](images\p8.png)
+![images\p8.png](./images/p8.png)
 
 
 DeepWiki explains
@@ -83,7 +83,7 @@ DeepWiki explains
 - who calls it
 - where it's used
 - related architecture
-![images\p9.png](images\p9.png)
+![images\p9.png](./images/p9.png)
 
 We can also use expenses.py file's delete_expense method.
 Note: File path is backend\app\routes\expenses.py
@@ -95,10 +95,10 @@ Now go back to agent mode, and paste this
 
 Explain how expense creation works and where I should add recurring expenses.
 ```
-![images\p10.png](images\p10.png)
+![images\p10.png](./images/p10.png)
 
 This is the output:
-![images\p11.png](images\p11.png)
+![images\p11.png](./images/p11.png)
 
 
 ### Supercomplete
@@ -109,7 +109,7 @@ Start typing
 def calculate_monthly_summary(
 ```
 
-![images\p12.png](images\p12.png)
+![images\p12.png](./images/p12.png)
 
 
 And we get suggestions for the code.
@@ -134,7 +134,7 @@ Goals:
 - don't break existing APIs
 ```
 
-![images\p13.png](images\p13.png)
+![images\p13.png](./images/p13.png)
 
 
 ### Quick review
@@ -154,7 +154,7 @@ Find:
 Do not fix them yet.
 ```
 
-![images\p14.png](images\p14.png)
+![images\p14.png](./images/p14.png)
 
 
 ### Testing
@@ -169,9 +169,9 @@ Run the tests.
 Fix failures until everything passes.
 
 ```
-![images\p15.png](images\p15.png)
+![images\p15.png](./images/p15.png)
 
-![images\p16.png](images\p16.png)
+![images\p16.png](./images/p16.png)
 
 
 So, Notice that Devin isn't only writing code.
